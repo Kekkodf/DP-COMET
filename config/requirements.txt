@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+ir-measures
+ir-datasets
+pingouin
+nltk
+gensim
+faiss_cpu
+diffprivlib
+importlib_resources
+spacy
+wn
+torch
+transformers
