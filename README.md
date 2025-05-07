@@ -74,7 +74,7 @@ The `main.py` script will generate a sample test folder, apply the DP-COMET mech
 ## 🧪 Test DP-COMET
 
 To test the contextual obfuscation mechanism, you can use the `main.py` script and run the following command:
-```python3
+```bash
 python3 main.py
 ```
 
