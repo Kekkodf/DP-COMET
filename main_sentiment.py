@@ -10,18 +10,14 @@ tqdm.pandas()
 
 logger = MyLogger.create()
 #space = ir_datasets.load('msmarco-passage/train')
-space = pd.read_csv('./config/test/textSpace/tweet_pool.csv')
+space = pd.read_csv('./config/test/textSpace/tweets_pool.csv', encoding='unicode_escape')
 #rename columns to match the expected format
-space = space.rename(columns={'Tweet description': 'query'})
-#drop Name column
-space = space.drop(columns=['Name'])
-#add qid column
-space['qid'] = space.index
+space = space.rename(columns={'textID': 'qid', 'text': 'query'})
 #order columns to match the expected format
 space = space[['qid', 'query']]
 space_queries = space
 
-queries = pd.read_csv('./tweets-df.csv')
+queries = pd.read_csv('./tweets_df.csv')
 #rename columns to match the expected format
 queries = queries.rename(columns={'id': 'qid', 'text': 'query'})
 logger.info(f'Queries in the dataset: {queries.shape[0]}')
