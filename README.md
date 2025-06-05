@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./img/repo/COMET-DP.png" alt="EQO" width="200">
+  <img src="./img/repo/COMET-DP.png" alt="DP-COMET" width="200">
   <br>
   DP-COMET: A Differential Privacy Context Obfuscation MEchanism for Textual Data
   <br>
