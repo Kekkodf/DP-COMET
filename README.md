@@ -1,11 +1,11 @@
 <h1 align="center">
   <img src="./img/repo/COMET-DP.png" alt="EQO" width="200">
   <br>
-  COMET: A Differential Privacy Context Obfuscation MEchanism for Textual Data
+  DP-COMET: A Differential Privacy Context Obfuscation MEchanism for Textual Data
   <br>
 </h1>
 
-<h4 align="center">Anonymous COMET repository for double-blind revisions of Short-Paper submitted at <a href="https://www.cikm2025.org/" target="_blank">CIKM'25</a>. ID Paper: </h4>
+<h4 align="center">Anonymous DP-COMET repository for double-blind revisions of Short-Paper submitted at <a href="https://www.cikm2025.org/" target="_blank">CIKM'25</a>. ID Paper: </h4>
 
 <p align="center">
   <a href="https://img.shields.io/badge/license-GNU_GPL_3.0-blue.svg">
@@ -53,7 +53,7 @@
 ├── LICENSE
 ├── .gitignore
 ```
-The `main.py` script will generate a sample test folder, apply the COMET mechanism, perform the experiments and store the results in it. The results logs will be saved in the `logs/` folder.
+The `main.py` script will generate a sample test folder, apply the DP-COMET mechanism, perform the experiments and store the results in it. The results logs will be saved in the `logs/` folder.
 
 ## 🌍 Setup Environment
 1. Clone the repository
@@ -112,6 +112,10 @@ Operating System: Ubuntu 24.04.2 LTS x86_64
 The `btop` screenshot below shows the CPU and RAM usage during the execution of the `main.py` script:
 
 ![btop](img/repo/COMET-Efficiency.png)
+
+To obfuscate the queries, the DP-COMET prints the progress of the obfuscation, showing the number of queries processed and the total number of queries to be obfuscated. At the end of the obfuscation, the script will print the total time taken to obfuscate the queries.
+
+In the example above, the obfuscation of 10 obfuscations for 43 queries each and 2 epsilons took approximately 5.82s.
 
 
 ## 🆘 Support
