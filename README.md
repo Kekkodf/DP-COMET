@@ -89,7 +89,12 @@ To test the contextual obfuscation mechanism, you can use the `main.py` script a
 python3 main.py
 ```
 
-An example is shown below:
+An example with the obfuscated queries for the Information Retrieval task is shown below:
+```bash
+python3 main.py --collection dl20 --iterations 10 --mechanism CMP --epsilons 4 16
+```
+
+![demo](img/repo/demo.gif)
 
 
 ## Effectiveness & Privacy
