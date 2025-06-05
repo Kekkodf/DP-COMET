@@ -79,7 +79,7 @@ conda deactivate
 
 In the `./config/requirements.txt` file, you can find the list of packages used in the project. 
 
-## 🧪 Test COMET
+## 🧪 Test DP-COMET
 
 > [!WARNING]
 Due to the large size of the embeddings, the config folder does not contain the file used by COMET. However, upon acceptance of the paper, the embeddings will be provided in the de-anonymized repository. If you want to test the COMET mechanisms, you can use the `main.py` script to generate the obfuscated queries, but the time will be longer than the one reported in the paper, as the embeddings will be generated on-the-fly.
