@@ -1,0 +1,8 @@
+mechanism,cosine_similarity,cosine_similarity,cosine_similarity,cosine_similarity,cosine_similarity,cosine_similarity,cosine_similarity,cosine_similarity,jaccard_similarity,jaccard_similarity,jaccard_similarity,jaccard_similarity,jaccard_similarity,jaccard_similarity,jaccard_similarity,jaccard_similarity
+,1.0,5.0,10.0,12.5,15.0,17.5,20.0,50.0,1.0,5.0,10.0,12.5,15.0,17.5,20.0,50.0
+CMP,0.064,0.079,0.203,0.373,0.564,0.7,0.771,0.823,0.0,0.002,0.077,0.211,0.402,0.579,0.703,0.841
+Mahalanobis,0.066,0.072,0.136,0.229,0.371,0.517,0.64,0.824,0.0,0.003,0.043,0.108,0.22,0.358,0.499,0.84
+VickreyCMP,0.064,0.076,0.166,0.242,0.321,0.394,0.429,0.551,0.0,0.001,0.041,0.085,0.123,0.145,0.151,0.178
+VickreyMhl,0.059,0.07,0.113,0.169,0.238,0.303,0.36,0.539,0.0,0.003,0.024,0.052,0.087,0.118,0.137,0.175
+DP-COMET-CMP,0.111,0.182,0.288,0.313,0.321,0.327,0.342,0.35,0.022,0.041,0.049,0.048,0.054,0.057,0.059,0.057
+DP-COMET-Mhl,0.109,0.124,0.197,0.242,0.242,0.313,0.295,0.344,0.017,0.025,0.045,0.042,0.041,0.052,0.051,0.057

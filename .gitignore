@@ -175,3 +175,5 @@ cython_debug/
 
 logs/
 test/
+plots_Script/
+results/

@@ -13,7 +13,7 @@ space = ir_datasets.load('msmarco-passage/train')
 space_queries = space.queries_iter()
 space_queries = pd.DataFrame(space_queries, columns=['qid', 'query'])
 
-queries = ir_datasets.load('disks45/nocr/trec-robust-2004') #msmarco-passage/trec-dl-2020/judged, msmarco-passage/trec-dl-2019/judged, disks45/nocr/trec-robust-2004, medline/2004/trec-genomics-2004
+queries = ir_datasets.load('msmarco-passage/trec-dl-2020/judged') #msmarco-passage/trec-dl-2020/judged, msmarco-passage/trec-dl-2019/judged, medline/2004/trec-genomics-2004
 queries = queries.queries_iter()
 #remove columns need and context
 queries = [(q.query_id, q.title) for q in queries]
