@@ -91,10 +91,10 @@ python3 main.py
 
 An example with the obfuscated queries for the Information Retrieval task is shown below:
 ```bash
-python3 main.py --collection dl20 --iterations 10 --mechanism CMP --epsilons 4 16
+python3 main.py --collection dl20 --iterations 10 --mechanism Mhl --epsilons 4 16
 ```
 
-![demo](img/repo/demo.gif)
+![demo](img/repo/COMET-demo.gif)
 
 
 ## Effectiveness & Privacy
@@ -111,7 +111,7 @@ Operating System: Ubuntu 24.04.2 LTS x86_64
 ```
 The `btop` screenshot below shows the CPU and RAM usage during the execution of the `main.py` script:
 
-![btop](img/repo/btop.png)
+![btop](img/repo/COMET-Efficiency.png)
 
 
 ## 🆘 Support
