@@ -101,7 +101,7 @@ python3 main.py --collection dl20 --iterations 10 --mechanism Mhl --epsilons 4 1
 The results can be found in the `data/` folder, where you will find the obfuscated queries and the results of the experiments. The results are organized in subfolders for each task, such as `IR` (Information Retrieval) and `sentimentAnalysis`, with further subfolders for effectiveness, obfuscated queries, and privacy.
 
 ## Efficiency
-The COMET mechanism is designed to be efficient in terms of computational resources. The tests has been performed on a machine with the following specifications:
+The DP-COMET mechanism is designed to be efficient in terms of computational resources. The tests has been performed on a machine with the following specifications:
 ```bash
 Processor: 13th Gen Intel i9-13900H (20) @ 5.200GHz
 GPU: Intel Raptor Lake-P [Iris Xe Graphics]
