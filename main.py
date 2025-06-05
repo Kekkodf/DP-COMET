@@ -22,7 +22,6 @@ logger.info(f'Queries in the dataset: {queries.shape[0]}')
 contextual = DPComet(spaceQueries=space_queries['query'], model='facebook/contriever-msmarco')
 logger.info('Mechanism object created')
 
-
 if __name__ == '__main__':
     
     space_embeddings_matrix = contextual.get_embMatrix()
