@@ -100,6 +100,12 @@ python3 main.py --collection dl20 --iterations 10 --mechanism Mhl --epsilons 4 1
 ## Effectiveness & Privacy
 The results can be found in the `data/` folder, where you will find the obfuscated queries and the results of the experiments. The results are organized in subfolders for each task, such as `IR` (Information Retrieval) and `sentimentAnalysis`, with further subfolders for effectiveness, obfuscated queries, and privacy.
 
+### Full Privacy analysis results
+Because of the limited space on the paper, here we provide the full privacy analysis results for the DP-COMET mechanism on the IR Task. 
+
+![Privacy Analysis](img/repo/COMET-FullPrivacyAnalysis.png)
+
+
 ## Efficiency
 The DP-COMET mechanism is designed to be efficient in terms of computational resources. The tests has been performed on a machine with the following specifications:
 ```bash
