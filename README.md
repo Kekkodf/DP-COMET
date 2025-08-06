@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<h4 align="center">Anonymous DP-COMET repository for double-blind revisions of Short-Paper submitted at <a href="https://www.cikm2025.org/" target="_blank">CIKM'25</a>. ID Paper: 5615</h4>
+<h4 align="center">DP-COMET repository of Short-Paper accepted at <a href="https://www.cikm2025.org/" target="_blank">CIKM'25</a>. ID Paper: 5615</h4>
 
 <p align="center">
   <a href="https://img.shields.io/badge/license-GNU_GPL_3.0-blue.svg">
@@ -130,12 +130,12 @@ In the example above, the obfuscation of 10 obfuscations for 43 queries each and
 
 
 ## 🆘 Support
-More Information about Author(s) and Support of the Mechanism released upon acceptance of the paper due to double-anonymous review process.
+The corresponding author is Francesco L. De Faveri. Please visit his [homepage](https://www.dei.unipd.it/~defaverifr/) for more information. 
 
 ## 📜 License
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-> [Anonymous Author(s)](https://github.com/) &nbsp;&middot;&nbsp;
-> GitHub [@Anonymous_Author(s)](https://github.com/)
+> [De Faveri, Faggioli, and Ferro (@IIIA Hub)](https://iiia.dei.unipd.it/) &nbsp;&middot;&nbsp;
+> GitHub [@kdf_7](https://github.com/Kekkodf)
